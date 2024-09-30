@@ -4,7 +4,8 @@ import com.indri.recycleindri_mi2a.R
 
 data class ModelBuah(
     val image : Int,
-    val nama : String
+    val nama : String,
+
 )
 //kita mock data untuk array
 
@@ -12,19 +13,24 @@ object MockList{
     fun getModel() : List<ModelBuah>{
         val itemModel1 = ModelBuah(
             R.drawable.apple,
-            "Apple"
+            "Apple",
+
         )
         val itemModel2 = ModelBuah(
             R.drawable.grapes,
-            "Anggur"
+            "Anggur",
+
+
         )
         val itemModel3 = ModelBuah(
             R.drawable.orange,
-            "Jeruk"
+            "Jeruk",
+
         )
         val itemModel4 = ModelBuah(
             R.drawable.pear,
-            "Pear"
+            "Pear",
+
         )
         val itemModel5 = ModelBuah(
             R.drawable.strawberry,

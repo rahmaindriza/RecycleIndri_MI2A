@@ -49,5 +49,13 @@
             android:layout_marginTop="10dp"
             android:backgroundTint="#A07331"
             android:text="Recycle Buah" />
+
+        <Button
+            android:id="@+id/btnMovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#A07331"
+            android:text="Recycle Movie" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

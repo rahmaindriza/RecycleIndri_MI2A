@@ -49,6 +49,10 @@ class BuahAdapter (
             val intent = Intent(getActivity, DetailBuah::class.java)
             intent.putExtra( "image", itemList[position].image)
             intent.putExtra( "nama", itemList[position].nama)
+            intent.putExtra( "nama", itemList[position].nama)
+            intent.putExtra( "lokasi", itemList[position].lokasi)
+            intent.putExtra( "deskripsi", itemList[position].deskripsi.toString())
+
 
             getActivity.startActivity(intent)
         }

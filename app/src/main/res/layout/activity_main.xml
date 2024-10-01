@@ -27,17 +27,26 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btnRecycleView"
+            android:id="@+id/btnListView"
+            android:text="List View "
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="80dp"
+            android:backgroundTint="#A07331" />
+
+        <Button
+            android:id="@+id/btnRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:backgroundTint="#A07331"
             android:text="Recycle Buku" />
 
         <Button
-            android:id="@+id/btnBuah"
+            android:id="@+id/btnRecycleBuah"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:backgroundTint="#A07331"
             android:text="Recycle Buah" />
     </LinearLayout>

@@ -10,15 +10,18 @@ import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var btnListView : Button
     private lateinit var btnRecycleview : Button
-    private lateinit var btnBuah: Button
+    private lateinit var btnRecycleBuah : Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        btnListView = findViewById(R.id.btnListView)
         btnRecycleview = findViewById(R.id.btnRecycleView)
-        btnBuah = findViewById(R.id.btnBuah)
+        btnRecycleBuah = findViewById(R.id.btnRecycleBuah)
 
         //untuk 1 screen --> terdiri dari 1 activity dan 1 xml layout
         //untuk bisa widget kita pakai, kita deklarasi dlu
@@ -30,6 +33,15 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        btnListView.setOnClickListener(){
+            //untuk pindah page : intent
+            //intent 2 : intent implicit dan intent explicit
+            //inten implicit : intent kita buat sendiri dan yang belaku didalam project
+            //intent expilicit : kita memanggil pihak ketiga / third party / libray : gmaps, gps,
+            val intentMenu2 = Intent(this@MainActivity, ListViewActivity::class.java)
+            startActivity(intentMenu2)
+        }
+
         btnRecycleview.setOnClickListener(){
             //untuk pindah page : intent
             //intent 2 : intent implicit dan intent explicit
@@ -39,9 +51,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intentMenu2)
         }
 
-        btnBuah.setOnClickListener {
-            val intentToRecycleBuah = Intent(this@MainActivity, RecycleBuahActivity::class.java)
-            startActivity(intentToRecycleBuah)
+        btnRecycleBuah.setOnClickListener() {
+            val intentMenu = Intent(this@MainActivity, RecycleBuahActivity::class.java)
+            startActivity(intentMenu)
         }
+
     }
 }

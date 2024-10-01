@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">RecycleIndri_MI2A</string>
+    <string name="st_anggur">Anggur merupakan buah yang diolah dari telur buah berupa perdu merambat yang termasuk ke dalam keluarga Vitaceae.[1] Buah ini biasanya digunakan untuk membuat jus anggur, jelly, minuman anggur, minyak biji anggur dan kismis, atau dimakan langsung.[1] Buah ini juga dikenal karena mengandung banyak senyawa polifenol dan resveratol yang berperan aktif dalam berbagai metabolisme tubuh, serta mampu mencegah terbentuknya sel kanker dan berbagai penyakit lainnya.[2] Aktivitas ini juga terkait dengan adanya senyawa metabolit sekunder di dalam buah anggur yang berperan sebagai senyawa antioksidan yang mampu menangkal radikal bebas.</string>
+    <string name="st_jeruk">Jeruk adalah buah yang berasal dari Asia dan termasuk dalam spesies citrus dari famili Rutaceae. Jeruk memiliki banyak manfaat bagi kesehatan, di antaranya:
+Kaya akan vitamin C yang membantu meningkatkan sistem kekebalan tubuh
+Mengandung antioksidan yang melindungi sel-sel tubuh dari kerusakan</string>
+    <string name="st_apel">Apel merupakan jenis buah-buahan, atau buah yang dihasilkan dari pohon apel. Buah apel biasanya berwarna merah kulitnya jika masak dan siap dimakan, tetapi bisa juga kulitnya berwarna hijau atau kuning. Kulit buahnya agak lembek dan daging buahnya keras. Buah apel memiliki beberapa biji di dalamnya.</string>
+    <string name="st_pear">Pir adalah pohon yang berasal dari daerah beriklim tropis di Eropa Barat, Asia dan Afrika Utara. Pohon berketinggian sedang, bisa mencapai 10-17 meter tapi sebagian spesies merupakan pohon yang pendek yang memiliki daun yang rimbun.</string>
+    <string name="st_strawberry">Strawberry adalah jenis buah beri yang biasanya berwarna merah atau merah muda, dengan biji-biji kecil di permukaannya. Buah ini memiliki rasa manis dan segar, sering ada dalam berbagai hidangan, seperti kue, selai, es krim, dan salad.</string>
+
 </resources>

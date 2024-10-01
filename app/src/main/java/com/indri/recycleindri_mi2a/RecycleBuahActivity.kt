@@ -8,11 +8,12 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.indri.recycleindri_mi2a.adapter.BuahAdapter
-import com.indri.recycleindri_mi2a.model.MockList
+import com.indri.recycleindri_mi2a.model.Mocklist
 import com.indri.recycleindri_mi2a.model.ModelBuah
 
 class RecycleBuahActivity : AppCompatActivity() {
     private lateinit var rv_buah : RecyclerView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -21,7 +22,7 @@ class RecycleBuahActivity : AppCompatActivity() {
         rv_buah = findViewById(R.id.rv_buah)
 
         rv_buah.layoutManager = GridLayoutManager(this, 1,)
-        val adapter = BuahAdapter(MockList.getModel() as ArrayList<ModelBuah>, this)
+        val adapter = BuahAdapter(Mocklist.getModel(this) as ArrayList<ModelBuah>, this)
         rv_buah.adapter = adapter
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->

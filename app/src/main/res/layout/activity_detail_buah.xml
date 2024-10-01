@@ -10,6 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="5dp"
         android:orientation="vertical">
 
         <ImageView
@@ -28,5 +29,21 @@
             android:textAlignment="center"
             android:textSize="34sp"
             android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDetailLokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lokasi:Padang"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDetailDeskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/st_apel" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
